@@ -20,8 +20,7 @@ a:active {background-color:orange;}
   #style1 {max-width : 70%;
 		   background-color : #facb91;
 		   border : 7px solid #f58916;
-		   opacity: 0.9;
-           filter: alpha(opacity=90);}
+		   box-shadow: 5px 5px 15px pink;}
   #style2 {position : absolute;
            left : 60%;}
   #style3 {font-size : 40px;
