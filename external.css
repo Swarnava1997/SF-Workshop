@@ -25,7 +25,9 @@ a:active {background-color:orange;}
            left : 60%;}
   #style3 {font-size : 40px;
            border : 5px solid #ed6fed;
-		   background-color : #edc5ed;}
+		   background-color : #edc5ed;
+            position: absolute;
+            top: 90vh;}
   #style4 {font-size : 20px;
            border : 5px solid #5bc2be;
 		   background-color : #cacaed;}
