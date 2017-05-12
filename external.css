@@ -20,7 +20,6 @@ a:active {background-color:orange;}
   #style1 {max-width : 70%;
 		   background-color : #facb91;
 		   border : 7px solid #f58916;
-	           border-radius: 70px;
 		   box-shadow: 5px 5px 15px pink;}
   #style2 {position : absolute;
            left : 60%;}
