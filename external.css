@@ -13,7 +13,7 @@ a:hover {background-color : white;
          color: #2e8230;
          font-weight : bold;
 		 transition-duration: 1s;} 
-a:visited {color : red;
+a:visited {color : #bff4a6;
            background-color : black;}
 a:active {background-color:orange;}
 
