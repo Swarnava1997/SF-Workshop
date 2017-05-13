@@ -31,8 +31,8 @@ a img:hover {
 
 .textbox {opacity: 0.5;}
 
-.image {min-width : 500px;
-	max-height : 500px;
+.image {min-width : 50%;
+	max-height : 50%;
 	border : 5px solid white;
 	border-radius : 8px;
 	padding : 10px;
