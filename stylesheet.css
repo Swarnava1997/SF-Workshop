@@ -1,23 +1,36 @@
+body{
+	margin: 0;
+}
+
 .style2 a{
 	text-decoration: none;
 	color: white;
 }
 
+.logo{
+	height: 75px;
+	width: 200px;
+}
+
 .style1{
-	height: 12%;
-	background-color: #40508f;
+	width: 1400px;
+	height: 82px;
+	background-color: #4a5b9e;
 	color: white;
 }
 .style2{
 	position: absolute;
-	left: 15%;
-	top: 7px;
+	left: 175px;
+	top: 15px;
+	min-width: 20%;
+	min-height: 5%;
 }
 
 .style3{
 	position: absolute;
-	left: 57%;
-	top: 20px;
+	left: 745px;
+	top: 15px;
+	width: 35%;
 }
 
 .style4{
@@ -30,8 +43,8 @@
 
 .msg-box{
 	border: 1px solid black;
-	width: 11vw;
-	height: 3.5vh;
+	width:160px;
+	height: 25px;
 }
 
 .submit{
@@ -39,22 +52,24 @@
 	background-color: #1a29b8;
 	color: white;
 	font-weight: bold;
-	height: 3.5vh;
+	height: 25px;
 }
 .submit:hover{
 	background-color: #152770;
 }
 
 .style5{
-	height: 75%;
+	height: 500px;
+	width: 1400px;
 	background:linear-gradient(#fff,#cedcf2);
 }
 
 .style6{
 	position: absolute;
-	left: 12%;
-	top: 15%;
-	width: 35%;
+	left: 150px;
+	top: 100px;
+	width: 500px;
+	height: 500px;
 }
 
 .image{
@@ -63,15 +78,16 @@
 
 .style7{
 	position: absolute;
-	left: 55%;
-	top: 10%;
-	width: 30%;
+	left: 745px;
+	top: 75px;
+	width: 400px;
+	height: 500px;
 	font-family: Tahoma;
 }
 
 .style8{
 	color: #788394;
-	font-size: 0.8vw;
+	font-size: 10px;
 }
 .style8 a, .style9 a{
 	color: #2564c2;
@@ -84,7 +100,7 @@
 .style9{
 	color: #788394;
 	font-weight: bold; 
-	font-size: 0.9vw
+	font-size: 12px;
 }
 
 .style10{
@@ -94,7 +110,7 @@
 
 .create-box{
 	width: 49.2%;
-	font-size: 1.5vw;
+	font-size: 20px;
 	color: #c1c5c7;
 	border: 1px solid #aba9a6;
 	border-radius: 6px;
@@ -112,7 +128,7 @@
 	height: 6vh;
 	color: white;
 	font-family: Tahoma;
-	font-size: 1.5vw;
+	font-size: 20px;
 	border: 0;
 	border-radius: 4px;
 }
@@ -125,7 +141,7 @@
 	left: 15%;
 }
 .style11 a{
-	font-size: 1vw;
+	font-size: 14px;
 	color: #2564c2;
 	text-decoration: none;
 }
