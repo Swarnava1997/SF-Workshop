@@ -1,5 +1,13 @@
 body  {font-family : "Trebuchet MS", sans-serif;
-       background: linear-gradient(black, #1a5720, #0b198f);}
+       animation: pulse 5s infinite;}
+	   
+@keyframes pulse {
+	0% {background: linear-gradient(black, #1a5720, #0b198f);}
+	33% {background: linear-gradient(#1a5720, #0b198f, black);}
+	66% {background: linear-gradient(#0b198f, black, #1a5720);}
+	100% {background: linear-gradient(black, #1a5720, #0b198f);}
+}
+	   
 h1 {color : blue;
     font-size : 50px;
 	font-family: monospace;}
@@ -13,7 +21,7 @@ a:hover {background-color : white;
          color: #2e8230;
          font-weight : bold;
 		 transition-duration: 1s;} 
-a:visited {color : #bff4a6;
+a:visited {color : red;
            background-color : black;}
 a:active {background-color:orange;}
 
@@ -31,8 +39,8 @@ a img:hover {
 
 .textbox {opacity: 0.5;}
 
-.image {min-width : 30%;
-	max-height : 50%;
+.image1 {max-width : 500px;
+	max-height : 500px;
 	border : 5px solid white;
 	border-radius : 8px;
 	padding : 10px;
